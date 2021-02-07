@@ -1,0 +1,19 @@
+{
+  "name": "Imacop Tour Corporation Sitema",
+  "description": "Sistema de control de Operaciones",
+  "repository": {
+    "url": "https://github.com/albertomfe/GH/contribute.json",
+    "license": "MPL2"
+  },
+  "keywords": [
+      "PHP 7.1",
+      "css 3",
+      "javascript",
+      "html5",
+      "jquery",
+      "ajax",
+      "mysql",
+      "email",
+      "ia"
+    ]
+}

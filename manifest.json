@@ -1,0 +1,33 @@
+{
+  "name": "GH Servicios Financieros",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Servicios Financieros, Prestamos",
+  "background_color": "#000000",
+  "theme_color": "#242424",
+  "orientation": "portrait",
+  "display": "standalone",
+  "lang": "es-MX",
+  "author": {
+      "name": "Manuel Alberto Flores Esparza",
+      "email": "albertomfe@gmail.com",
+      "url": "https://baulprogram.com.mx"
+  },
+  "keywords": [
+      "PHP 7.1",
+      "css 3",
+      "javascript",
+      "html5",
+      "jquery",
+      "ajax",
+      "mysql",
+      "email"
+    ],
+    "icons": [
+      {
+        "src": "./img/favicon.ico",
+        "sizes": "16x16",
+        "type": "image/ico"
+      }
+    ]
+}
