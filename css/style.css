@@ -1,11 +1,59 @@
+:root {
+  --background-color-golden: #EAA01F;
+  --text-color-golden: #EAA01F;
+}
+
+
+::-webkit-scrollbar {
+  width: 7px;
+  height: 7px;
+}
+::-webkit-scrollbar-button {
+  width: 68px;
+  height: 68px;
+}
+::-webkit-scrollbar-thumb {
+  background: #926e2f;
+  border: 0px none #ffffff;
+  border-radius: 50px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #926e2f;
+}
+::-webkit-scrollbar-thumb:active {
+  background: #926e2f;
+}
+::-webkit-scrollbar-track {
+  background: #ffffff;
+  border: 0px none #ffffff;
+  border-radius: 50px;
+}
+::-webkit-scrollbar-track:hover {
+  background: #ffffff;
+}
+::-webkit-scrollbar-track:active {
+  background: #ffffff;
+}
+::-webkit-scrollbar-corner {
+  background: transparent;
+}
+
+
+body{
+  width: 100%;
+  overflow-x: hidden!important;
+}
+
 .nav_superior{
   width: 100%;
+  max-width: 100%;
   height: 60px;
-  background: yellow;
+  background: var(--background-color-golden);/*golden*/
 }
 
 .navegacion{
   width: 100%;
+  max-width: 100%;
   background: #000!important;
   z-index:9999999!important;
 }
@@ -51,4 +99,37 @@
   /*invertir color de imagen*/
   /*filter: grayscale(100%);
   -webkit-filter: grayscale(100%);*/
+}
+
+
+
+/*degradado de izq a derecha*/
+.fondo-calculadora{
+  height: auto;
+  width:  100%;
+  background:linear-gradient(90deg, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0.7)),url("../img/fondos/fondo-calculadora.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  z-index:0;
+  /*invertir color de imagen*/
+  /*filter: grayscale(100%);
+  -webkit-filter: grayscale(100%);*/
+}
+
+
+
+.subtitulo{
+  font-size:32px;
+  color:#96989A;
+}
+.paso{
+  font-weight: bold!important;
+  font-size:18px!important;
+  color:var(--text-color-golden)!important;
+}
+/*pantallas menores a 600px*/
+@media only screen and (max-width: 600px) {
+  .titulo_pagina{
+    font-size:24px;
+  }
 }
