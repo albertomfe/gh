@@ -1,8 +1,18 @@
 :root {
-  --background-color-golden: #EAA01F;
+  --background-color-golden: #926e2f;
   --text-color-golden: #EAA01F;
+  --text-color-oro: #926e2f;
 }
 
+.texto-dorado{
+  color:var(--text-color-oro);
+}
+.fs16{
+  font-size: 18px;
+}
+.texto_negritas{
+  font-weight: bold;
+}
 
 ::-webkit-scrollbar {
   width: 7px;
