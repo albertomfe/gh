@@ -20,10 +20,10 @@
       <div class='nav_superior uk-animation-slide-bottom' >
         <div class="row">
             <div class="col-md-6 col-sm-6 col-6 text-center texto-blanco">
-                TELEFONO
+                TELEFONO <br /> <small>33-33-33-33</small>
              </div>
             <div class="col-md-6 col-sm-6 col-6 text-center texto-blanco">
-                CORREO
+                CORREO <br /> <small>EXAMPLE@HOTMAIL.COM</small>
             </div>
         </div>
       </div>
@@ -31,24 +31,11 @@
           <div class="uk-navbar-left">
 
               <ul class="uk-navbar-nav">
-                  <li><a href="#">INICIO</a></li>
-                  <li><a href="#">NOSOTROS</a></li>
-                  <li>
-                      <a href="#">PLANES</a>
-                      <div class="uk-navbar-dropdown">
-                          <ul class="uk-nav uk-navbar-dropdown-nav">
-                              <li><a href="#">12 MESES</a></li>
-                              <li class="uk-nav-divider"></li>
-                              <li><a href="#">14 MESES</a></li>
-                              <li class="uk-nav-divider"></li>
-                              <li><a href="#">16 MESES</a></li>
-                              <li class="uk-nav-divider"></li>
-                              <li><a href="#">18 MESES</a></li>
-                              <li class="uk-nav-divider"></li>
-                          </ul>
-                      </div>
-                  </li>
-                  <li><a href="#">CONTACTO</a></li>
+                  <li><a href="#inicio" uk-scroll>INICIO</a></li>
+                  <li><a href="#nosotros" uk-scroll>NOSOTROS</a></li>
+                  <li><a href="#requisitos" uk-scroll>REQUISITOS</a></li>
+                  <li><a href="#calculadora" uk-scroll>CALCULADORA</a></li>
+                  <li><a  href="#contacto" uk-scroll>CONTACTO</a></li>
               </ul>
 
           </div>
@@ -61,7 +48,7 @@
           </div>
       </nav>
 
-      <div class="uk-height-medium uk-flex uk-flex-center uk-flex-middle uk-background-cover uk-light "
+      <div id='inicio' class="uk-height-medium uk-flex uk-flex-center uk-flex-middle uk-background-cover uk-light "
            data-src="https://images.unsplash.com/photo-1490822180406-880c226c150b?fit=crop&w=650&h=433&q=80"
            data-srcset="https://images.unsplash.com/photo-1490822180406-880c226c150b?fit=crop&w=650&h=433&q=80 650w,
                         https://images.unsplash.com/photo-1490822180406-880c226c150b?fit=crop&w=1300&h=866&q=80 1300w"
@@ -71,7 +58,7 @@
 
 
 
-      <div class='row' uk-parallax="y: 0,50,150">
+      <div id='nosotros' class='row' uk-parallax="y: 0,50,150">
         <div class='col-md-6 col-12 mp-none fondo-0 ' uk-scrollspy="cls: uk-animation-slide-left; repeat: true">
             <!--imagen de fondo -->
         </div>
@@ -135,7 +122,7 @@
 
       <div class='row'>
 
-        <div class='col-md-12 text-center mb-5 p-5 bg-black'>
+        <div id='requisitos' class='col-md-12 text-center mb-5 p-5 bg-black'>
             <div class='row'>
               <div class='col-md-12 text-center mb-5'>
                   <span class='subtitulo'>REQUISITOS</span>
@@ -210,8 +197,8 @@
 
 
 
-      <!-- Testimonios -->
-      <div class='row' uk-scrollspy="cls: uk-animation-slide-left; repeat: true">
+      <!-- calculadora -->
+      <div id='calculadora' class='row' uk-scrollspy="cls: uk-animation-slide-left; repeat: true">
 
         <div class='col-md-12 col-12 text-center mb-5 p-5 bg-black fondo-calculadora'>
             <div class='row justify-content-center'>
@@ -276,7 +263,7 @@
 
 
       <!-- seccion de contacto-->
-      <div class='row' uk-scrollspy="cls: uk-animation-slide-top; repeat: true">
+      <div class='row' id='contacto' uk-scrollspy="cls: uk-animation-slide-top; repeat: true">
 
         <div class='col-md-12  mb-5 p-5 '>
             <div class='row justify-content-center'>
@@ -331,6 +318,96 @@
         </div>
       </div>
 
+
+
+
+      <!-- Testimonios -->
+      <div class='row' uk-scrollspy="cls: uk-animation-slide-left; repeat: true">
+
+        <div class='col-md-12 col-12 text-center  p-5 bg-black fondo-calculadora'>
+            <div class='row justify-content-center'>
+              <div class='col-md-12 text-center mb-5'>
+                  <span class='subtitulo texto-dorado'>TESTIMONIOS</span>
+              </div>
+
+
+              <div class='col-md-12 col-12  ' >
+                <article class="uk-comment">
+                    <header class="uk-comment-header">
+                        <div class="uk-grid-medium uk-flex-middle" uk-grid>
+                            <div class="uk-width-auto">
+                                <img class="uk-comment-avatar" src="https://www.ashoka.org/sites/default/files/styles/medium_1600x1000/public/thumbnails/images/daniela-kreimer.jpg?itok=R89tVtb4" width="80" height="80" alt="">
+                            </div>
+                            <div class="uk-width-expand">
+                                <ul class="uk-comment-meta uk-subnav uk-subnav-divider uk-margin-remove-top">
+                                    <li><a href="#">Nombre de Persona</a></li>
+                                    <li><a href="#">12 De ago</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </header>
+                    <div class="uk-comment-body">
+                        <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.</p>
+                    </div>
+                </article>
+              </div>
+
+              <div class='col-md-12 col-12  ' >
+                <article class="uk-comment">
+                    <header class="uk-comment-header">
+                        <div class="uk-grid-medium uk-flex-middle" uk-grid>
+                            <div class="uk-width-auto">
+                                <img class="uk-comment-avatar" src="https://concepto.de/wp-content/uploads/2018/08/persona-e1533759204552.jpg" width="80" height="80" alt="">
+                            </div>
+                            <div class="uk-width-expand">
+                                <ul class="uk-comment-meta uk-subnav uk-subnav-divider uk-margin-remove-top">
+                                    <li><a href="#">Nombre de Persona</a></li>
+                                    <li><a href="#">12 De ago</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </header>
+                    <div class="uk-comment-body">
+                        <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.</p>
+                    </div>
+                </article>
+              </div>
+
+            </div>
+        </div>
+
+      </div>
+
+
+      <!-- Galeria -->
+      <div class="uk-position-relative uk-visible-toggle uk-light" tabindex="-1" uk-slider>
+        <ul class="uk-slider-items uk-child-width-1-2 uk-child-width-1-3@s uk-child-width-1-4@m">
+            <li>
+                <img style='height:200px; width:100%;' src="https://inmobiliare.com/himalaya/wp-content/uploads/2020/06/mercado-de-oficinas-guadalajara-jll-inmobiliare.png" alt="">
+                <div class="uk-position-center uk-panel"><h1>1</h1></div>
+            </li>
+            <li>
+                <img style='height:200px; width:100%;' src="https://realestatemarket.com.mx/images/2019/05-Mayo/0705/oficinas_mexico_p.jpg" alt="">
+                <div class="uk-position-center uk-panel"><h1>2</h1></div>
+            </li>
+            <li>
+                <img  style='height:200px; width:100%;'src="https://revistaestilopropio.com/wp-content/uploads/2020/05/IMG_8205-HDR-1.jpg" alt="">
+                <div class="uk-position-center uk-panel"><h1>3</h1></div>
+            </li>
+            <li>
+                <img  style='height:200px; width:100%;'src="https://contractworkplaces.com/web/wp-content/uploads/2020/05/Oficinas-interior-modernas-ABB-Per%C3%BA-por-Contract-Workplaces.jpg" alt="">
+                <div class="uk-position-center uk-panel"><h1>4</h1></div>
+            </li>
+            <li>
+                <img  style='height:200px; width:100%;'src="https://www.bbva.com/wp-content/uploads/2019/05/OficinasBoutique-1024x427.jpg" alt="">
+                <div class="uk-position-center uk-panel"><h1>5</h1></div>
+            </li>
+        </ul>
+
+        <a class="uk-position-center-left uk-position-small uk-hidden-hover" href="#" uk-slidenav-previous uk-slider-item="previous"></a>
+        <a class="uk-position-center-right uk-position-small uk-hidden-hover" href="#" uk-slidenav-next uk-slider-item="next"></a>
+
+    </div>
 
 
       <!-- footer -->
